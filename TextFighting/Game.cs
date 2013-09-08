@@ -41,6 +41,7 @@ namespace TextFighting
         }
         public void fightMyself()
         {
+            p2.lifePoint = 0;
             p1.lifePoint = 0;
         }
 
