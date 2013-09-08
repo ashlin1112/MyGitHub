@@ -39,6 +39,10 @@ namespace TextFighting
             
             Console.ReadLine();
         }
+        public void fightMyself()
+        {
+            p1.lifePoint = 0;
+        }
 
         public void fight()
         {
