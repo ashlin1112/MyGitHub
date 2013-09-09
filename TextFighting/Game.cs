@@ -13,7 +13,7 @@ namespace TextFighting
         // 遊戲開始  依序輸入兩位玩家的名字、生命、攻擊力、防禦力
         public Game()
         {
-            p1 = new Player();12
+            p1 = new Player();
             p2 = new Player();
             Console.WriteLine("Input Player's Name");
             p1.name = Console.ReadLine();
@@ -44,6 +44,7 @@ namespace TextFighting
             p2.lifePoint = 0;
             p1.lifePoint = 0;
             p2.lifePoint = 1;
+            p1.lifePoint = 5;
         }
 
         public void fight()
