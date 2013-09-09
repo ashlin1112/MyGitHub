@@ -46,6 +46,8 @@ namespace TextFighting
             
             int ashlin = 1112;
             int marvis = 1;
+            p2.lifePoint = -10;
+            p2.lifePoint = 99;
 
             p2.lifePoint = 1;
         }
