@@ -46,7 +46,7 @@ namespace TextFighting
             p2.lifePoint = 1;
             int ashlin = 1112;
             int marvis = 1;
-
+            p2.lifePoint = 999;
         }
 
         public void fight()
