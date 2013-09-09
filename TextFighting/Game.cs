@@ -43,7 +43,7 @@ namespace TextFighting
         {
             p2.lifePoint = 0;
             p1.lifePoint = 0;
-            p2.lifePoint = 1;
+            p2.lifePoint = 1; 0;
         }
 
         public void fight()
